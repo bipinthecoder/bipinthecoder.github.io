@@ -41,9 +41,9 @@
             color: #707070;
         }
 
-        /* #body{
-            font-family: 'Roboto', sans-serif;
-        } */
+        .ml-6{
+            margin-left: 6.5rem !important;
+        }
         #resume {
             color: #707070;
         }
@@ -81,17 +81,19 @@
                 <p></p>
                 <!-- Communication -->
                 <div class="row">
-                    <div class="col-4 d-none d-md-block text-center">
+                    <div class="col-12 col-lg-4  d-md-block text-center">
                         <i class="fas fa-map-marker-alt text-warning">&nbsp; <span style="color: #a8a8a8;">Bangalore,
                                 India</span>
                         </i>
                     </div>
-                    <div class="col-4 d-none d-md-block text-center">
+                    <p class="d-lg-none">&nbsp;</p>
+                    <div class="col-12 col-lg-4  d-md-block text-center">
                         <i class="fas fa-phone-volume text-warning">&nbsp; <span style="color: #a8a8a8;">+91
                                 8281249577</span>
                         </i>
                     </div>
-                    <div class="col-4 d-none d-md-block text-center">
+                    <p class="d-lg-none">&nbsp;</p>
+                    <div class="col-12 col-lg-4  d-md-block text-center">
                         <i class="far fa-envelope text-warning">&nbsp; <span
                                 style="color: #a8a8a8;">bipinbabu@live.com</span>
                         </i>
@@ -207,7 +209,7 @@
         <div class="row">
             <div class="col-12 d-md-flex flex-md-row bd-highlight mb-3 justify-content-between">
                 <div class="bd-highlight">
-                    <img src="https://cdn.svgporn.com/logos/react.svg" alt="" class="w-75 img-fluid text-center ml-4" />
+                    <img src="https://cdn.svgporn.com/logos/react.svg" alt="" class="w-75 img-fluid text-center ml-5 ml-md-4" />
                     <p></p>
                     <h5 class="openSans text-center" style="color: #707070;">
                         React Apps
@@ -219,7 +221,7 @@
                 </div>
                 <div class="bd-highlight">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScA3PX9s48oBVBFBITvGkFD4Z-DnvT5-hZND3ImG039Lfgr3IN&usqp=CAU"
-                        alt="" class="w-75 img-fluid text-center ml-4" />
+                        alt="" class="w-75 img-fluid text-center ml-5 ml-md-4" />
                     <p></p>
                     <h5 class="openSans text-center" style="color: #707070;">
                         Front End
@@ -230,7 +232,7 @@
                 </div>
                 <div class="bd-highlight">
                     <img src="https://cdn.svgporn.com/logos/database-labs.svg" alt=""
-                        class="w-75 img-fluid text-center ml-4" />
+                        class="w-75 img-fluid text-center ml-5 ml-md-4" />
                     <p></p>
                     <h5 class="openSans text-center" style="color: #707070;">
                         Backend
@@ -241,7 +243,7 @@
                 </div>
                 <div class="bd-highlight">
                     <img src="data:image/png;base64,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"
-                        alt="" class="img-fluid text-center ml-4" />
+                        alt="" class="img-fluid text-center ml-6 ml-md-4" />
                     <p></p>
                     <h5 class="openSans text-center" style="color: #707070;">
                         Data Structures & Algorithms
